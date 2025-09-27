@@ -1,8 +1,11 @@
-fastapi
-uvicorn
-pillow
-torch
-transformers
-faiss-cpu
-openpyxl
-pyngrok
+fastapi==0.117.1
+uvicorn==0.37.0
+pillow==11.3.0
+
+torch==2.2.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+transformers==4.35.2
+faiss-cpu==1.7.4
+openpyxl==3.1.2
+pyngrok==7.0.0
