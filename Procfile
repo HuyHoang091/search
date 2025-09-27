@@ -1,0 +1,1 @@
+web: uvicorn qdrant_image3:app --host 0.0.0.0 --port 8000
