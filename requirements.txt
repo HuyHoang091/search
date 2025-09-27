@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pillow
+torch
+transformers
+faiss-cpu
+openpyxl
+pyngrok
