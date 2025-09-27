@@ -1,2 +1,2 @@
 #!/bin/bash
-uvicorn qdrant_image3:app --host 0.0.0.0 --port ${PORT}
+python qdrant_image3.py

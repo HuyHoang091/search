@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD sh -c "uvicorn qdrant_image3:app --host 0.0.0.0 --port ${PORT}"
+CMD ["python", "qdrant_image3.py"]
