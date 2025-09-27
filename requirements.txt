@@ -10,3 +10,4 @@ faiss-cpu==1.7.4
 openpyxl==3.1.2
 pyngrok==7.0.0
 numpy<2
+python-multipart
